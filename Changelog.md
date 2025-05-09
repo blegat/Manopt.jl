@@ -21,6 +21,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * `quasi_Newton`
   * `projected_gradient_method`
 
+### Fixed
+
+* Fixed allocations in the callbacks of the JuMP interface so that the solver can query the cost and gradient without allocating.
+
 ## [0.5.20] July 8, 2025
 
 ### Added
